@@ -86,13 +86,13 @@ body {
 }
 
 #container2 {
+  top: -20px;
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 150px;
-  padding-bottom: 100px;
-  margin-top: -50px;
+  height: 250px;
 }
 
 .custom-btn {
@@ -102,27 +102,28 @@ body {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5) 7px 7px 50px 0px
       rgba(0, 0, 0, 0.1),
     4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  outline: none;
-  margin-bottom: 20em solid white;
 }
 
 .item {
+  display: flex;
   background-color: white;
   justify-content: center;
   position: relative;
   text-align: center;
   border: none;
-  width: 24%;
-  line-height: 100px;
+  width: 24.5%;
+  line-height: 270px;
 }
 .item span {
+  backface-visibility: hidden;
   display: block;
   position: absolute;
+  cursor: pointer;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5) 7px 7px 20px 0px
       rgba(0, 0, 0, 0.1),
     4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  border-color: white;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
   text-align: center;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -151,6 +152,7 @@ body {
 }
 
 .item:hover span:nth-child(1) {
+  line-height: 20px;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: rotateX(0deg);
@@ -159,6 +161,9 @@ body {
 }
 
 .item:hover span:nth-child(2) {
+  height: 0;
+  margin: 0;
+  line-height: 0;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   color: transparent;
