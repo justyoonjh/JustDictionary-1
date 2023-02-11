@@ -1,4 +1,4 @@
-const HTMLPage = document.querySelector('#container2 button:first-child');
+const HTMLPage = document.querySelector('#container2 button:nth-child(1)');
 const CSSPage = document.querySelector('#container2 button:nth-child(2)');
 const JSPage = document.querySelector('#container2 button:nth-child(3)');
 
