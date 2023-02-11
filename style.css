@@ -96,6 +96,10 @@ body {
   margin-bottom: 80px;
 }
 
+#container3 {
+  flex-direction: row;
+}
+
 .custom-btn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transition: all 0.3s ease;
@@ -178,19 +182,19 @@ body {
 }
 
 #image1 {
-  background-image: url('./htmlimg.png');
+  background-image: url('./img/htmlimg.png');
   background-size: cover;
   background-position: center;
 }
 
 #image2 {
-  background-image: url('./cssimg.png');
+  background-image: url('./img/cssimg.png');
   background-size: cover;
   background-position: center;
 }
 
 #image3 {
-  background-image: url('./jsimg.png');
+  background-image: url('./img/jsimg.png');
   background-size: cover;
   background-position: center;
 }
