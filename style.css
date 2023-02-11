@@ -49,10 +49,8 @@ body {
   margin: 0;
 }
 
-.Login-btn,
-.Join-btn:hover,
-.Join-btn:active {
-  width: 30%;
+.Login-btn {
+  width: 100px;
   background-color: transparent;
   border-color: transparent;
   border-radius: 10%;
@@ -61,10 +59,9 @@ body {
   padding: 10px 5px;
 }
 
-.Join-btn,
 .Login-btn:hover,
 .Login-btn:active {
-  width: 30%;
+  width: 100px;
   background-color: white;
   border-color: transparent;
   border-radius: 10%;
